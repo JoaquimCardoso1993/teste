@@ -9,6 +9,6 @@ data = {
 
 var $select = $('#people');
 
-$.getJSON('data.JSON', function(data){
+$.getJSON('data', function(data){
     console.log(data);
 });
