@@ -1,0 +1,1698 @@
+const anosPremier = {
+    "epocas": [
+      {
+        "epoca": "1995/1996",
+        "jogadores": [
+          {
+            "id": 001,
+            "nome": "Dani",
+            "clube": "West Ham"
+          },
+          {
+            "id": 002,
+            "nome": "Calita",
+            "clube": "Coventry City"
+          }
+        ]
+      },
+      {
+        "epoca": "1996/1997",
+        "jogadores": [
+          {
+            "id": 003,
+            "nome": "Fernando Nélson",
+            "clube": "Aston Villa"
+          },
+          {
+            "id": 004,
+            "nome": "Paulo Futre",
+            "clube": "West Ham"
+          },
+          {
+            "id": 005,
+            "nome": "Hugo Porfírio",
+            "clube": "West Ham"
+          },
+          {
+            "id": 002,
+            "nome": "Calita",
+            "clube": "Coventry City"
+          }
+        ]
+      },
+      {
+        "epoca": "1997/1998",
+        "jogadores": [
+          {
+            "id": 006,
+            "nome": "Paulo Alves",
+            "clube": "West Ham"
+          },
+          {
+            "id": 007,
+            "nome": "Bruno Ribeiro",
+            "clube": "Leeds United"
+          },
+          {
+            "id": 003,
+            "nome": "Fernando Nélson",
+            "clube": "Aston Villa"
+          },
+          {
+            "id": 008,
+            "nome": "Luís Boa Morte",
+            "clube": "Arsenal"
+          },
+          {
+            "id": 009,
+            "nome": "José Dominguez",
+            "clube": "Tottenham"
+          },
+          {
+            "id": 010,
+            "nome": "Gil",
+            "clube": "Sheffield Wed."
+          }
+        ]
+      },
+      {
+        "epoca": "1998/1999",
+        "jogadores": [
+          {
+            "id": 011,
+            "nome": "Nuno Santos",
+            "clube": "Leeds United"
+          },
+          {
+            "id": 007,
+            "nome": "Bruno Ribeiro",
+            "clube": "Leeds United"
+          },
+          {
+            "id": 008,
+            "nome": "Luís Boa Morte",
+            "clube": "Arsenal"
+          },
+          {
+            "id": 009,
+            "nome": "José Dominguez",
+            "clube": "Tottenham"
+          },
+          {
+            "id": 005,
+            "nome": "Hugo Porfírio",
+            "clube": "Nottingham Forest"
+          },
+          {
+            "id": 012,
+            "nome": "Dani Rodrigues",
+            "clube": "Southampton"
+          }
+        ]
+      },
+      {
+        "epoca": "1999/2000",
+        "jogadores": [
+          {
+            "id": 013,
+            "nome": "Hélder Cristovão",
+            "clube": "Newcastle"
+          },
+          {
+            "id": 007,
+            "nome": "Bruno Ribeiro",
+            "clube": "Leeds United"
+          },
+          {
+            "id": 014,
+            "nome": "Marco Almeida",
+            "clube": "Southampton"
+          },
+          {
+            "id": 008,
+            "nome": "Luís Boa Morte",
+            "clube": "Arsenal"
+          },
+          {
+            "id": 015,
+            "nome": "Abel Xavier",
+            "clube": "Everton"
+          },
+          {
+            "id": 016,
+            "nome": "Jorge Cadete",
+            "clube": "Bradford City"
+          },
+          {
+            "id": 009,
+            "nome": "José Dominguez",
+            "clube": "Tottenham"
+          },
+          {
+            "id": 012,
+            "nome": "Dani Rodrigues",
+            "clube": "Southampton"
+          }
+        ]
+      },
+      {
+        "epoca": "2000/2001",
+        "jogadores": [
+          {
+            "id": 015,
+            "nome": "Abel Xavier",
+            "clube": "Everton"
+          },
+          {
+            "id": 009,
+            "nome": "José Dominguez",
+            "clube": "Tottenham"
+          },
+          {
+            "id": 012,
+            "nome": "Dani Rodrigues",
+            "clube": "Southampton"
+          }
+        ]
+      },
+      {
+        "epoca": "2001/2002",
+        "jogadores": [
+          {
+            "id": 015,
+            "nome": "Abel Xavier",
+            "clube": "Everton"
+          },
+          {
+            "id": 008,
+            "nome": "Luís Boa Morte",
+            "clube": "Fulham"
+          },
+          {
+            "id": 016,
+            "nome": "Jorge Costa",
+            "clube": "Charlton Athletic"
+          }
+        ]
+      },
+      {
+        "epoca": "2002/2003",
+        "jogadores": [
+          {
+            "id": 017,
+            "nome": "Filipe Oliveira",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 008,
+            "nome": "Luís Boa Morte",
+            "clube": "Fulham"
+          },
+          {
+            "id": 018,
+            "nome": "Hugo Viana",
+            "clube": "Newcastle"
+          },
+          {
+            "id": 019,
+            "nome": "Jordão",
+            "clube": "West Bromwich"
+          },
+          {
+            "id": 015,
+            "nome": "Abel Xavier",
+            "clube": "Liverpool"
+          },
+        ]
+      },
+      {
+        "epoca": "2003/2004",
+        "jogadores": [
+          {
+            "id": 020,
+            "nome": "Ricardo Vaz Tê",
+            "clube": "Bolton Wanderers"
+          },
+          {
+            "id": 021,
+            "nome": "Sérgio Leite",
+            "clube": "Charlton Athletic"
+          },
+          {
+            "id": 017,
+            "nome": "Filipe Oliveira",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 008,
+            "nome": "Luís Boa Morte",
+            "clube": "Fulham"
+          },
+          {
+            "id": 022,
+            "nome": "Cristiano Ronaldo",
+            "clube": "Manchester United"
+          },
+          {
+            "id": 018,
+            "nome": "Hugo Viana",
+            "clube": "Newcastle"
+          },
+          {
+            "id": 023,
+            "nome": "Hélder Postiga",
+            "clube": "Tottenham"
+          },
+          {
+            "id": 024,
+            "nome": "Silas",
+            "clube": "Wolverhampton"
+          }
+        ]
+      },
+      {
+        "epoca": "2004/2005",
+        "jogadores": [
+          {
+            "id": 025,
+            "nome": "Tiago",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 026,
+            "nome": "Pedro Mendes",
+            "clube": "Tottenham"
+          },
+          {
+            "id": 027,
+            "nome": "Ricardo Carvalho",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 028,
+            "nome": "Paulo Ferreira",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 020,
+            "nome": "Ricardo Vaz Tê",
+            "clube": "Bolton Wanderers"
+          },
+          {
+            "id": 017,
+            "nome": "Filipe Oliveira",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 008,
+            "nome": "Luís Boa Morte",
+            "clube": "Fulham"
+          },
+          {
+            "id": 022,
+            "nome": "Cristiano Ronaldo",
+            "clube": "Manchester United"
+          },
+          {
+            "id": 029,
+            "nome": "Edson Sousa",
+            "clube": "Tottenham"
+          },
+          {
+            "id": 030,
+            "nome": "Nuno Morais",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 031,
+            "nome": "Feliciano Condesso",
+            "clube": "Southampton"
+          },
+          {
+            "id": 032,
+            "nome": "Filipe Morais",
+            "clube": "Chelsea"
+          },          
+        ]
+      },
+      {
+        "epoca": "2005/2006",
+        "jogadores": [
+          {
+            "id": 025,
+            "nome": "Tiago",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 026,
+            "nome": "Pedro Mendes",
+            "clube": "Tottenham"
+          },
+          {
+            "id": 027,
+            "nome": "Ricardo Carvalho",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 033,
+            "nome": "Nuno Valente",
+            "clube": "Everton"
+          },
+          {
+            "id": 028,
+            "nome": "Paulo Ferreira",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 034,
+            "nome": "Maniche",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 035,
+            "nome": "Gonçalo Brandão",
+            "clube": "Charlton Athletic"
+          },
+          {
+            "id": 020,
+            "nome": "Ricardo Vaz Tê",
+            "clube": "Bolton Wanderers"
+          },
+          {
+            "id": 008,
+            "nome": "Luís Boa Morte",
+            "clube": "Fulham"
+          },
+          {
+            "id": 022,
+            "nome": "Cristiano Ronaldo",
+            "clube": "Manchester United"
+          },
+          {
+            "id": 015,
+            "nome": "Abel Xavier",
+            "clube": "Middlesbrough"
+          },
+          {
+            "id": 030,
+            "nome": "Nuno Morais",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 036,
+            "nome": "Ricardo Batista",
+            "clube": "Fulham"
+          },
+        ]
+      },
+      {
+        "epoca": "2006/2007",
+        "jogadores": [
+          {
+            "id": 037,
+            "nome": "Ricardo Rocha",
+            "clube": "Tottenham"
+          },
+          {
+            "id": 026,
+            "nome": "Pedro Mendes",
+            "clube": "Portsmouth"
+          },
+          {
+            "id": 038,
+            "nome": "Hilário",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 027,
+            "nome": "Ricardo Carvalho",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 033,
+            "nome": "Nuno Valente",
+            "clube": "Everton"
+          },
+          {
+            "id": 028,
+            "nome": "Paulo Ferreira",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 020,
+            "nome": "Ricardo Vaz Tê",
+            "clube": "Bolton Wanderers"
+          },
+          {
+            "id": 008,
+            "nome": "Luís Boa Morte",
+            "clube": "Fulham"
+          },
+          {
+            "id": 022,
+            "nome": "Cristiano Ronaldo",
+            "clube": "Manchester United"
+          },
+          {
+            "id": 039,
+            "nome": "Manuel Fernandes",
+            "clube": "Everton"
+          },
+          {
+            "id": 015,
+            "nome": "Abel Xavier",
+            "clube": "Middlesbrough"
+          },
+          {
+            "id": 030,
+            "nome": "Nuno Morais",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 036,
+            "nome": "Ricardo Batista",
+            "clube": "Fulham"
+          },
+        ]
+      },
+      {
+        "epoca": "2007/2008",
+        "jogadores": [
+          {
+            "id": 037,
+            "nome": "Ricardo Rocha",
+            "clube": "Tottenham"
+          },
+          {
+            "id": 026,
+            "nome": "Pedro Mendes",
+            "clube": "Portsmouth"
+          },
+          {
+            "id": 038,
+            "nome": "Hilário",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 027,
+            "nome": "Ricardo Carvalho",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 033,
+            "nome": "Nuno Valente",
+            "clube": "Everton"
+          },
+          {
+            "id": 028,
+            "nome": "Paulo Ferreira",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 020,
+            "nome": "Ricardo Vaz Tê",
+            "clube": "Bolton Wanderers"
+          },
+          {
+            "id": 008,
+            "nome": "Luís Boa Morte",
+            "clube": "West Ham"
+          },
+          {
+            "id": 022,
+            "nome": "Cristiano Ronaldo",
+            "clube": "Manchester United"
+          },
+          {
+            "id": 039,
+            "nome": "Manuel Fernandes",
+            "clube": "Everton"
+          },
+          {
+            "id": 036,
+            "nome": "Ricardo Batista",
+            "clube": "Fulham"
+          },
+          {
+            "id": 040,
+            "nome": "Nani",
+            "clube": "Manchester United"
+          },
+          {
+            "id": 041,
+            "nome": "Bruno Luz",
+            "clube": "Fulham"
+          },
+        ]
+      },
+      {
+        "epoca": "2008/2009",
+        "jogadores": [
+          {
+            "id": 037,
+            "nome": "Ricardo Rocha",
+            "clube": "Tottenham"
+          },
+          {
+            "id": 026,
+            "nome": "Pedro Mendes",
+            "clube": "Portsmouth"
+          },
+          {
+            "id": 038,
+            "nome": "Hilário",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 027,
+            "nome": "Ricardo Carvalho",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 033,
+            "nome": "Nuno Valente",
+            "clube": "Everton"
+          },
+          {
+            "id": 028,
+            "nome": "Paulo Ferreira",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 020,
+            "nome": "Ricardo Vaz Tê",
+            "clube": "Bolton Wanderers"
+          },
+          {
+            "id": 008,
+            "nome": "Luís Boa Morte",
+            "clube": "West Ham"
+          },
+          {
+            "id": 022,
+            "nome": "Cristiano Ronaldo",
+            "clube": "Manchester United"
+          },
+          {
+            "id": 040,
+            "nome": "Nani",
+            "clube": "Manchester United"
+          },
+          {
+            "id": 042,
+            "nome": "José Bosingwa",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 043,
+            "nome": "Deco",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 044,
+            "nome": "Filipe Teixeira",
+            "clube": "West Bromwich"
+          },
+          {
+            "id": 045,
+            "nome": "Ricardo Quaresma",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 046,
+            "nome": "Ariza Makukula",
+            "clube": "Bolton Wanderers"
+          },
+          {
+            "id": 047,
+            "nome": "Rui Fonte",
+            "clube": "Arsenal"
+          },
+          {
+            "id": 048,
+            "nome": "Pelé",
+            "clube": "Portsmouth"
+          },
+          {
+            "id": 049,
+            "nome": "Amaury Bischoff",
+            "clube": "Arsenal"
+          },     
+        ]
+      },
+      {
+        "epoca": "2009/2010",
+        "jogadores": [
+          {
+            "id": 037,
+            "nome": "Ricardo Rocha",
+            "clube": "Portsmouth"
+          },
+          {
+            "id": 038,
+            "nome": "Hilário",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 027,
+            "nome": "Ricardo Carvalho",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 028,
+            "nome": "Paulo Ferreira",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 020,
+            "nome": "Ricardo Vaz Tê",
+            "clube": "Bolton Wanderers"
+          },
+          {
+            "id": 008,
+            "nome": "Luís Boa Morte",
+            "clube": "West Ham"
+          },
+          {
+            "id": 040,
+            "nome": "Nani",
+            "clube": "Manchester United"
+          },
+          {
+            "id": 042,
+            "nome": "José Bosingwa",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 043,
+            "nome": "Deco",
+            "clube": "Chelsea"
+          },           
+          {
+            "id": 041,
+            "nome": "Bruno Luz",
+            "clube": "Fulham"
+          },
+        ]
+      },
+      {
+        "epoca": "2010/2011",
+        "jogadores": [
+          {
+            "id": 042,
+            "nome": "José Bosingwa",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 038,
+            "nome": "Hilário",
+            "clube": "Chelsea"
+          },
+          
+          {
+            "id": 028,
+            "nome": "Paulo Ferreira",
+            "clube": "Chelsea"
+          },          
+          {
+            "id": 050,
+            "nome": "Raúl Meireles",
+            "clube": "Liverpool"
+          },
+          {
+            "id": 008,
+            "nome": "Luís Boa Morte",
+            "clube": "West Ham"
+          },
+          {
+            "id": 040,
+            "nome": "Nani",
+            "clube": "Manchester United"
+          },
+          
+          {
+            "id": 051,
+            "nome": "João Silva",
+            "clube": "Everton"
+          },
+        ]
+      },
+      {
+        "epoca": "2011/2012",
+        "jogadores": [
+          {
+            "id": 052,
+            "nome": "José Moreira",
+            "clube": "Swansea City"
+          },
+          {
+            "id": 038,
+            "nome": "Hilário",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 042,
+            "nome": "José Bosingwa",
+            "clube": "Chelsea"
+          },          
+          {
+            "id": 028,
+            "nome": "Paulo Ferreira",
+            "clube": "Chelsea"
+          },          
+          {
+            "id": 050,
+            "nome": "Raúl Meireles",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 040,
+            "nome": "Nani",
+            "clube": "Manchester United"
+          },          
+          {
+            "id": 051,
+            "nome": "João Silva",
+            "clube": "Everton"
+          },          
+          {
+            "id": 053,
+            "nome": "Orlando Sá",
+            "clube": "Fulham"
+          },          
+          {
+            "id": 054,
+            "nome": "Bruno Andrade",
+            "clube": "QPR"
+          },
+        ]
+      },
+      {
+        "epoca": "2012/2013",
+        "jogadores": [          
+          {
+            "id": 038,
+            "nome": "Hilário",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 042,
+            "nome": "José Bosingwa",
+            "clube": "QPR"
+          },          
+          {
+            "id": 028,
+            "nome": "Paulo Ferreira",
+            "clube": "Chelsea"
+          },          
+          {
+            "id": 050,
+            "nome": "Raúl Meireles",
+            "clube": "Chelsea"
+          },
+          {
+            "id": 040,
+            "nome": "Nani",
+            "clube": "Manchester United"
+          },        
+          {
+            "id": 020,
+            "nome": "Ricardo Vaz Tê",
+            "clube": "West Ham"
+          },
+          {
+            "id": 055,
+            "nome": "José Fonte",
+            "clube": "Southampton"
+          },
+          {
+            "id": 056,
+            "nome": "Daniel Carriço",
+            "clube": "Reading"
+          },          
+          {
+            "id": 057,
+            "nome": "Rony Lopes",
+            "clube": "Manchester City"
+          },        
+          {
+            "id": 058,
+            "nome": "Élton Monteiro",
+            "clube": "Arsenal"
+          },      
+          {
+            "id": 059,
+            "nome": "Alberto Sedi",
+            "clube": "Southampton"
+          },
+        ]
+      },
+      {
+        "epoca": "2013/2014",
+        "jogadores": [          
+          {
+            "id": 038,
+            "nome": "Hilário",
+            "clube": "Chelsea"
+          },   
+          {
+            "id": 040,
+            "nome": "Nani",
+            "clube": "Manchester United"
+          },        
+          {
+            "id": 020,
+            "nome": "Ricardo Vaz Tê",
+            "clube": "West Ham"
+          },
+          {
+            "id": 055,
+            "nome": "José Fonte",
+            "clube": "Southampton"
+          },        
+          {
+            "id": 057,
+            "nome": "Rony Lopes",
+            "clube": "Manchester City"
+          },   
+          {
+            "id": 060,
+            "nome": "João Carlos Teixeira",
+            "clube": "Liverpool"
+          },   
+          {
+            "id": 061,
+            "nome": "Tiago Ilori",
+            "clube": "Liverpool"
+          },  
+          {
+            "id": 062,
+            "nome": "Mesca",
+            "clube": "Fulham"
+          },
+        ]
+      },
+      {
+        "epoca": "2014/2015",
+        "jogadores": [ 
+          {
+            "id": 040,
+            "nome": "Nani",
+            "clube": "Manchester United"
+          },        
+          {
+            "id": 020,
+            "nome": "Ricardo Vaz Tê",
+            "clube": "West Ham"
+          },        
+          {
+            "id": 060,
+            "nome": "João Carlos Teixeira",
+            "clube": "Liverpool"
+          },    
+          {
+            "id": 063,
+            "nome": "Silvestre Varela",
+            "clube": "West Bromwich"
+          },          
+          {
+            "id": 055,
+            "nome": "José Fonte",
+            "clube": "Southampton"
+          },   
+          {
+            "id": 064,
+            "nome": "Nélson Oliveira",
+            "clube": "Swansea City"
+          },  
+        ]
+      },
+      {
+        "epoca": "2015/2016",
+        "jogadores": [       
+          {
+            "id": 060,
+            "nome": "João Carlos Teixeira",
+            "clube": "Liverpool"
+          },         
+          {
+            "id": 055,
+            "nome": "José Fonte",
+            "clube": "Southampton"
+          },          
+          {
+            "id": 065,
+            "nome": "Cédric Soares",
+            "clube": "Southampton"
+          },          
+          {
+            "id": 066,
+            "nome": "Ivo Pinto",
+            "clube": "Norwich City"
+          },           
+          {
+            "id": 067,
+            "nome": "Éder",
+            "clube": "Swansea City"
+          },  
+          {
+            "id": 061,
+            "nome": "Tiago Ilori",
+            "clube": "Aston Villa"
+          },         
+          {
+            "id": 057,
+            "nome": "Rony Lopes",
+            "clube": "Manchester City"
+          },           
+          {
+            "id": 068,
+            "nome": "Joel Pereira",
+            "clube": "Manchester United"
+          },  
+        ]
+      },
+      {
+        "epoca": "2016/2017",
+        "jogadores": [         
+          {
+            "id": 055,
+            "nome": "José Fonte",
+            "clube": "Southampton"
+          },          
+          {
+            "id": 065,
+            "nome": "Cédric Soares",
+            "clube": "Southampton"
+          },  
+          {
+            "id": 061,
+            "nome": "Tiago Ilori",
+            "clube": "Liverpool"
+          },            
+          {
+            "id": 068,
+            "nome": "Joel Pereira",
+            "clube": "Manchester United"
+          },              
+          {
+            "id": 069,
+            "nome": "Eduardo",
+            "clube": "Chelsea"
+          },             
+          {
+            "id": 070,
+            "nome": "Mika",
+            "clube": "Sunderland"
+          },                     
+          {
+            "id": 071,
+            "nome": "Domingos Quina",
+            "clube": "West Ham"
+          },                    
+          {
+            "id": 072,
+            "nome": "Paulinho",
+            "clube": "Liverpool"
+          },
+        ]
+      },
+      {
+        "epoca": "2017/2018",
+        "jogadores": [         
+          {
+            "id": 055,
+            "nome": "José Fonte",
+            "clube": "West Ham"
+          },          
+          {
+            "id": 065,
+            "nome": "Cédric Soares",
+            "clube": "Southampton"
+          },            
+          {
+            "id": 068,
+            "nome": "Joel Pereira",
+            "clube": "Manchester United"
+          },              
+          {
+            "id": 069,
+            "nome": "Eduardo",
+            "clube": "Chelsea"
+          },                     
+          {
+            "id": 071,
+            "nome": "Domingos Quina",
+            "clube": "West Ham"
+          },                       
+          {
+            "id": 073,
+            "nome": "Adrien Silva",
+            "clube": "Leicester City"
+          },                                  
+          {
+            "id": 074,
+            "nome": "João Mário",
+            "clube": "West Ham"
+          },                                  
+          {
+            "id": 075,
+            "nome": "Bernardo Silva",
+            "clube": "Manchester City"
+          },                                             
+          {
+            "id": 076,
+            "nome": "Renato Sanches",
+            "clube": "Swansea City"
+          }, 
+        ]
+      },
+      {
+        "epoca": "2018/2019",
+        "jogadores": [            
+          {
+            "id": 065,
+            "nome": "Cédric Soares",
+            "clube": "Southampton"
+          },   
+          {
+            "id": 077,
+            "nome": "João Moutinho",
+            "clube": "Wolverhampton"
+          },      
+          {
+            "id": 047,
+            "nome": "Rui Fonte",
+            "clube": "Fulham"
+          },     
+          {
+            "id": 078,
+            "nome": "Rui Patrício",
+            "clube": "Wolverhampton"
+          },                       
+          {
+            "id": 073,
+            "nome": "Adrien Silva",
+            "clube": "Leicester City"
+          },      
+          {
+            "id": 079,
+            "nome": "Ricardo Pereira",
+            "clube": "Leicester City"
+          },                                 
+          {
+            "id": 075,
+            "nome": "Bernardo Silva",
+            "clube": "Manchester City"
+          },     
+          {
+            "id": 080,
+            "nome": "Hélder Costa",
+            "clube": "Wolverhampton"
+          },     
+          {
+            "id": 081,
+            "nome": "Rafael Camacho",
+            "clube": "Liverpool"
+          },                    
+          {
+            "id": 071,
+            "nome": "Domingos Quina",
+            "clube": "Waftord"
+          },     
+          {
+            "id": 082,
+            "nome": "Xande Silva",
+            "clube": "West Ham"
+          },      
+          {
+            "id": 083,
+            "nome": "Rúben Vinagre",
+            "clube": "Wolverhampton"
+          },       
+          {
+            "id": 084,
+            "nome": "Ivan Cavaleiro",
+            "clube": "Wolverhampton"
+          },     
+          {
+            "id": 085,
+            "nome": "André Gomes",
+            "clube": "Everton"
+          },        
+          {
+            "id": 086,
+            "nome": "Rúben Neves",
+            "clube": "Wolverhampton"
+          },         
+          {
+            "id": 087,
+            "nome": "João Vírginia",
+            "clube": "Everton"
+          },        
+          {
+            "id": 088,
+            "nome": "Diogo Jota",
+            "clube": "Wolverhampton"
+          },          
+          {
+            "id": 068,
+            "nome": "Joel Pereira",
+            "clube": "Manchester United"
+          },          
+          {
+            "id": 089,
+            "nome": "Diogo Dalot",
+            "clube": "Manchester United"
+          },       
+          {
+            "id": 090,
+            "nome": "Pedro Gonçalves",
+            "clube": "Wolverhampton"
+          },  
+          
+        ]
+      },
+      {
+        "epoca": "2019/2020",
+        "jogadores": [            
+          {
+            "id": 065,
+            "nome": "Cédric Soares",
+            "clube": "Arsenal"
+          },   
+          {
+            "id": 077,
+            "nome": "João Moutinho",
+            "clube": "Wolverhampton"
+          },     
+          {
+            "id": 078,
+            "nome": "Rui Patrício",
+            "clube": "Wolverhampton"
+          },                       
+          {
+            "id": 073,
+            "nome": "Adrien Silva",
+            "clube": "Leicester City"
+          },      
+          {
+            "id": 079,
+            "nome": "Ricardo Pereira",
+            "clube": "Leicester City"
+          },                                 
+          {
+            "id": 075,
+            "nome": "Bernardo Silva",
+            "clube": "Manchester City"
+          },     
+          {
+            "id": 081,
+            "nome": "Rafael Camacho",
+            "clube": "Liverpool"
+          },                    
+          {
+            "id": 071,
+            "nome": "Domingos Quina",
+            "clube": "Waftord"
+          },     
+          {
+            "id": 082,
+            "nome": "Xande Silva",
+            "clube": "West Ham"
+          },      
+          {
+            "id": 083,
+            "nome": "Rúben Vinagre",
+            "clube": "Wolverhampton"
+          },      
+          {
+            "id": 085,
+            "nome": "André Gomes",
+            "clube": "Everton"
+          },        
+          {
+            "id": 086,
+            "nome": "Rúben Neves",
+            "clube": "Wolverhampton"
+          },         
+          {
+            "id": 087,
+            "nome": "João Vírginia",
+            "clube": "Everton"
+          },        
+          {
+            "id": 088,
+            "nome": "Diogo Jota",
+            "clube": "Wolverhampton"
+          },          
+          {
+            "id": 068,
+            "nome": "Joel Pereira",
+            "clube": "Manchester United"
+          },          
+          {
+            "id": 089,
+            "nome": "Diogo Dalot",
+            "clube": "Manchester United"
+          },       
+          {
+            "id": 090,
+            "nome": "Pedro Gonçalves",
+            "clube": "Wolverhampton"
+          },     
+          {
+            "id": 091,
+            "nome": "Roderick Miranda",
+            "clube": "Wolverhampton"
+          },   
+          {
+            "id": 092,
+            "nome": "João Cancelo",
+            "clube": "Manchester City"
+          },   
+          {
+            "id": 093,
+            "nome": "Daniel Podence",
+            "clube": "Wolverhampton"
+          },        
+          {
+            "id": 094,
+            "nome": "Bruno Fernandes",
+            "clube": "Manchester United"
+          },   
+          {
+            "id": 095,
+            "nome": "Pedro Neto",
+            "clube": "Wolverhampton"
+          },  
+          {
+            "id": 096,
+            "nome": "Gedson Fernandes",
+            "clube": "Tottenham"
+          }, 
+          
+        ]
+      },
+      {
+        "epoca": "2020/2021",
+        "jogadores": [            
+          {
+            "id": 065,
+            "nome": "Cédric Soares",
+            "clube": "Arsenal"
+          },   
+          {
+            "id": 077,
+            "nome": "João Moutinho",
+            "clube": "Wolverhampton"
+          },     
+          {
+            "id": 078,
+            "nome": "Rui Patrício",
+            "clube": "Wolverhampton"
+          },      
+          {
+            "id": 079,
+            "nome": "Ricardo Pereira",
+            "clube": "Leicester City"
+          },                                 
+          {
+            "id": 075,
+            "nome": "Bernardo Silva",
+            "clube": "Manchester City"
+          },       
+          {
+            "id": 082,
+            "nome": "Xande Silva",
+            "clube": "West Ham"
+          },      
+          {
+            "id": 083,
+            "nome": "Rúben Vinagre",
+            "clube": "Wolverhampton"
+          },      
+          {
+            "id": 085,
+            "nome": "André Gomes",
+            "clube": "Everton"
+          },        
+          {
+            "id": 086,
+            "nome": "Rúben Neves",
+            "clube": "Wolverhampton"
+          },       
+          {
+            "id": 088,
+            "nome": "Diogo Jota",
+            "clube": "Wolverhampton"
+          },          
+          {
+            "id": 068,
+            "nome": "Joel Pereira",
+            "clube": "Manchester United"
+          },          
+          {
+            "id": 089,
+            "nome": "Diogo Dalot",
+            "clube": "Manchester United"
+          },    
+          {
+            "id": 092,
+            "nome": "João Cancelo",
+            "clube": "Manchester City"
+          },   
+          {
+            "id": 093,
+            "nome": "Daniel Podence",
+            "clube": "Wolverhampton"
+          },        
+          {
+            "id": 094,
+            "nome": "Bruno Fernandes",
+            "clube": "Manchester United"
+          },   
+          {
+            "id": 095,
+            "nome": "Pedro Neto",
+            "clube": "Wolverhampton"
+          },  
+          {
+            "id": 096,
+            "nome": "Gedson Fernandes",
+            "clube": "Tottenham"
+          },    
+          {
+            "id": 080,
+            "nome": "Hélder Costa",
+            "clube": "Leeds United"
+          },       
+          {
+            "id": 084,
+            "nome": "Ivan Cavaleiro",
+            "clube": "Fulham"
+          }, 
+          {
+            "id": 097,
+            "nome": "Rúben Dias",
+            "clube": "Manchester City"
+          },           
+          {
+            "id": 098,
+            "nome": "Nélson Semedo",
+            "clube": "Wolverhampton"
+          },                     
+          {
+            "id": 099,
+            "nome": "Vitinha",
+            "clube": "Wolverhampton"
+          },                     
+          {
+            "id": 100,
+            "nome": "Fábio Silva",
+            "clube": "Wolverhampton"
+          },                     
+          {
+            "id": 101,
+            "nome": "Sidnei Tavares",
+            "clube": "Leicester City"
+          },           
+        ]
+      },
+      {
+        "epoca": "2021/2022",
+        "jogadores": [            
+          {
+            "id": 065,
+            "nome": "Cédric Soares",
+            "clube": "Arsenal"
+          },   
+          {
+            "id": 077,
+            "nome": "João Moutinho",
+            "clube": "Wolverhampton"
+          },    
+          {
+            "id": 079,
+            "nome": "Ricardo Pereira",
+            "clube": "Leicester City"
+          },                                 
+          {
+            "id": 075,
+            "nome": "Bernardo Silva",
+            "clube": "Manchester City"
+          },       
+          {
+            "id": 085,
+            "nome": "André Gomes",
+            "clube": "Everton"
+          },        
+          {
+            "id": 086,
+            "nome": "Rúben Neves",
+            "clube": "Wolverhampton"
+          },       
+          {
+            "id": 088,
+            "nome": "Diogo Jota",
+            "clube": "Liverpool"
+          },           
+          {
+            "id": 089,
+            "nome": "Diogo Dalot",
+            "clube": "Manchester United"
+          },    
+          {
+            "id": 092,
+            "nome": "João Cancelo",
+            "clube": "Manchester City"
+          },   
+          {
+            "id": 093,
+            "nome": "Daniel Podence",
+            "clube": "Wolverhampton"
+          },        
+          {
+            "id": 094,
+            "nome": "Bruno Fernandes",
+            "clube": "Manchester United"
+          },   
+          {
+            "id": 095,
+            "nome": "Pedro Neto",
+            "clube": "Wolverhampton"
+          },     
+          {
+            "id": 080,
+            "nome": "Hélder Costa",
+            "clube": "Leeds United"
+          },  
+          {
+            "id": 097,
+            "nome": "Rúben Dias",
+            "clube": "Manchester City"
+          },           
+          {
+            "id": 098,
+            "nome": "Nélson Semedo",
+            "clube": "Wolverhampton"
+          },                    
+          {
+            "id": 100,
+            "nome": "Fábio Silva",
+            "clube": "Wolverhampton"
+          },                 
+          {
+            "id": 022,
+            "nome": "Cristiano Ronaldo",
+            "clube": "Manchester United"
+          },                      
+          {
+            "id": 104,
+            "nome": "José Sá",
+            "clube": "Wolverhampton"
+          },                         
+          {
+            "id": 105,
+            "nome": "Bruno Jordão",
+            "clube": "Wolverhampton"
+          },                       
+          {
+            "id": 106,
+            "nome": "Francisco Trincão",
+            "clube": "Wolverhampton"
+          },                       
+          {
+            "id": 107,
+            "nome": "Toti Gomes",
+            "clube": "Wolverhampton"
+          },                      
+          {
+            "id": 108,
+            "nome": "Christian Marques",
+            "clube": "Wolverhampton"
+          },                     
+          {
+            "id": 109,
+            "nome": "Wanya Marçal",
+            "clube": "Leicester City"
+          },                   
+          {
+            "id": 110,
+            "nome": "Chiquinho",
+            "clube": "Wolverhampton"
+          },                 
+          {
+            "id": 111,
+            "nome": "Nuno Tavares",
+            "clube": "Arsenal"
+          },
+        ]
+      },
+      {
+        "epoca": "2022/2023",
+        "jogadores": [            
+          {
+            "id": 065,
+            "nome": "Cédric Soares",
+            "clube": "Fulham"
+          },   
+          {
+            "id": 077,
+            "nome": "João Moutinho",
+            "clube": "Wolverhampton"
+          },    
+          {
+            "id": 079,
+            "nome": "Ricardo Pereira",
+            "clube": "Leicester City"
+          },                                 
+          {
+            "id": 075,
+            "nome": "Bernardo Silva",
+            "clube": "Manchester City"
+          },      
+          {
+            "id": 086,
+            "nome": "Rúben Neves",
+            "clube": "Wolverhampton"
+          },       
+          {
+            "id": 088,
+            "nome": "Diogo Jota",
+            "clube": "Liverpool"
+          },           
+          {
+            "id": 089,
+            "nome": "Diogo Dalot",
+            "clube": "Manchester United"
+          },    
+          {
+            "id": 092,
+            "nome": "João Cancelo",
+            "clube": "Manchester City"
+          },   
+          {
+            "id": 093,
+            "nome": "Daniel Podence",
+            "clube": "Wolverhampton"
+          },        
+          {
+            "id": 094,
+            "nome": "Bruno Fernandes",
+            "clube": "Manchester United"
+          },   
+          {
+            "id": 095,
+            "nome": "Pedro Neto",
+            "clube": "Wolverhampton"
+          },  
+          {
+            "id": 097,
+            "nome": "Rúben Dias",
+            "clube": "Manchester City"
+          },           
+          {
+            "id": 098,
+            "nome": "Nélson Semedo",
+            "clube": "Wolverhampton"
+          },                    
+          {
+            "id": 104,
+            "nome": "José Sá",
+            "clube": "Wolverhampton"
+          },                      
+          {
+            "id": 107,
+            "nome": "Toti Gomes",
+            "clube": "Wolverhampton"
+          },                     
+          {
+            "id": 109,
+            "nome": "Wanya Marçal",
+            "clube": "Leicester City"
+          },                   
+          {
+            "id": 110,
+            "nome": "Chiquinho",
+            "clube": "Wolverhampton"
+          },                 
+          {
+            "id": 112,
+            "nome": "Cafú",
+            "clube": "Nottingham Forest"
+          },     
+          {
+            "id": 083,
+            "nome": "Rúben Vinagre",
+            "clube": "Everton"
+          },    
+          {
+            "id": 113,
+            "nome": "João Palhinha",
+            "clube": "Fulham"
+          },    
+          {
+            "id": 114,
+            "nome": "João Félix",
+            "clube": "Chelsea"
+          },   
+          {
+            "id": 115,
+            "nome": "Fábio Vieira",
+            "clube": "Arsenal"
+          },                  
+          {
+            "id": 116,
+            "nome": "Matheus Nunes",
+            "clube": "Wolverhampton"
+          },                 
+          {
+            "id": 117,
+            "nome": "Fábio Carvalho",
+            "clube": "Liverpool"
+          },                 
+          {
+            "id": 118,
+            "nome": "Diogo Monteiro",
+            "clube": "Leeds United"
+          },   
+          {
+            "id": 119,
+            "nome": "Mauro Bandeira",
+            "clube": "Arsenal"
+          },   
+          {
+            "id": 120,
+            "nome": "Carlos Borges",
+            "clube": "Manchester City"
+          },   
+          {
+            "id": 121,
+            "nome": "Adler Nascimento",
+            "clube": "Crystal Palace"
+          }, 
+        ]
+      },
+    ]
+  }
